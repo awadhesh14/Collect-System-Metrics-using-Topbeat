@@ -1,0 +1,645 @@
+[2016-04-17 01:27:54,707][INFO ][cluster.metadata         ] [Warstar] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [config]
+[2016-04-17 01:27:55,055][INFO ][cluster.routing.allocation] [Warstar] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-04-17 01:28:15,763][INFO ][cluster.metadata         ] [Warstar] [.kibana] create_mapping [index-pattern]
+[2016-04-17 01:35:33,056][INFO ][cluster.metadata         ] [Warstar] [.kibana] create_mapping [search]
+[2016-04-17 01:35:34,005][INFO ][cluster.metadata         ] [Warstar] [.kibana] update_mapping [search]
+[2016-04-17 01:35:36,198][INFO ][cluster.metadata         ] [Warstar] [.kibana] create_mapping [visualization]
+[2016-04-17 01:35:36,624][INFO ][cluster.metadata         ] [Warstar] [.kibana] update_mapping [visualization]
+[2016-04-17 01:35:42,272][INFO ][cluster.metadata         ] [Warstar] [.kibana] create_mapping [dashboard]
+[2016-04-17 01:35:42,746][INFO ][cluster.metadata         ] [Warstar] [.kibana] update_mapping [dashboard]
+[2016-04-17 01:40:12,899][INFO ][node                     ] [Warstar] stopping ...
+[2016-04-17 01:40:15,444][INFO ][node                     ] [Warstar] stopped
+[2016-04-17 01:40:15,446][INFO ][node                     ] [Warstar] closing ...
+[2016-04-17 01:40:15,469][INFO ][node                     ] [Warstar] closed
+[2016-04-17 01:41:16,731][INFO ][node                     ] [Sybil Dvorak] version[2.3.1], pid[7216], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 01:41:16,731][INFO ][node                     ] [Sybil Dvorak] initializing ...
+[2016-04-17 01:41:17,358][INFO ][plugins                  ] [Sybil Dvorak] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 01:41:17,376][INFO ][env                      ] [Sybil Dvorak] using [1] data paths, mounts [[(C:)]], net usable_space [110.6gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 01:41:17,377][INFO ][env                      ] [Sybil Dvorak] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 01:41:19,283][INFO ][node                     ] [Sybil Dvorak] initialized
+[2016-04-17 01:41:19,283][INFO ][node                     ] [Sybil Dvorak] starting ...
+[2016-04-17 01:41:19,493][INFO ][transport                ] [Sybil Dvorak] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 01:41:19,497][INFO ][discovery                ] [Sybil Dvorak] elasticsearch/9i-83i39TnCH8TlEJngBww
+[2016-04-17 01:41:23,560][INFO ][cluster.service          ] [Sybil Dvorak] new_master {Sybil Dvorak}{9i-83i39TnCH8TlEJngBww}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 01:41:23,777][INFO ][http                     ] [Sybil Dvorak] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 01:41:23,778][INFO ][node                     ] [Sybil Dvorak] started
+[2016-04-17 01:41:23,796][INFO ][gateway                  ] [Sybil Dvorak] recovered [2] indices into cluster_state
+[2016-04-17 01:41:25,268][INFO ][cluster.routing.allocation] [Sybil Dvorak] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][1], [topbeat-2016.04.16][1]] ...]).
+[2016-04-17 01:47:40,186][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-17 01:47:40,187][INFO ][node                     ] [Sybil Dvorak] stopping ...
+[2016-04-17 01:47:41,744][INFO ][node                     ] [Sybil Dvorak] stopped
+[2016-04-17 01:47:41,745][INFO ][node                     ] [Sybil Dvorak] closing ...
+[2016-04-17 01:47:41,763][INFO ][node                     ] [Sybil Dvorak] closed
+[2016-04-17 01:49:30,639][INFO ][node                     ] [Crooked Man] version[2.3.1], pid[8740], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 01:49:30,640][INFO ][node                     ] [Crooked Man] initializing ...
+[2016-04-17 01:49:31,118][INFO ][plugins                  ] [Crooked Man] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 01:49:31,135][INFO ][env                      ] [Crooked Man] using [1] data paths, mounts [[(C:)]], net usable_space [110.6gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 01:49:31,136][INFO ][env                      ] [Crooked Man] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 01:49:33,047][INFO ][node                     ] [Crooked Man] initialized
+[2016-04-17 01:49:33,048][INFO ][node                     ] [Crooked Man] starting ...
+[2016-04-17 01:49:33,253][INFO ][transport                ] [Crooked Man] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 01:49:33,257][INFO ][discovery                ] [Crooked Man] elasticsearch/MiChA6VgSAejV31kEYLkNg
+[2016-04-17 01:49:37,318][INFO ][cluster.service          ] [Crooked Man] new_master {Crooked Man}{MiChA6VgSAejV31kEYLkNg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 01:49:37,598][INFO ][gateway                  ] [Crooked Man] recovered [2] indices into cluster_state
+[2016-04-17 01:49:37,630][INFO ][http                     ] [Crooked Man] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 01:49:37,630][INFO ][node                     ] [Crooked Man] started
+[2016-04-17 01:49:38,791][INFO ][cluster.routing.allocation] [Crooked Man] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][0], [topbeat-2016.04.16][0]] ...]).
+[2016-04-17 17:46:40,628][INFO ][node                     ] [Neophyte] version[2.3.1], pid[2604], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 17:46:40,643][INFO ][node                     ] [Neophyte] initializing ...
+[2016-04-17 17:46:42,624][INFO ][plugins                  ] [Neophyte] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 17:46:42,745][INFO ][env                      ] [Neophyte] using [1] data paths, mounts [[(C:)]], net usable_space [107.3gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 17:46:42,747][INFO ][env                      ] [Neophyte] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 17:46:48,876][INFO ][node                     ] [Neophyte] initialized
+[2016-04-17 17:46:48,876][INFO ][node                     ] [Neophyte] starting ...
+[2016-04-17 17:46:49,454][INFO ][transport                ] [Neophyte] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 17:46:49,470][INFO ][discovery                ] [Neophyte] elasticsearch/M1-9f8u7S3uvnOIVZUkvhA
+[2016-04-17 17:46:53,592][INFO ][cluster.service          ] [Neophyte] new_master {Neophyte}{M1-9f8u7S3uvnOIVZUkvhA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 17:46:53,948][INFO ][http                     ] [Neophyte] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 17:46:53,949][INFO ][node                     ] [Neophyte] started
+[2016-04-17 17:46:53,987][INFO ][gateway                  ] [Neophyte] recovered [2] indices into cluster_state
+[2016-04-17 17:46:55,282][INFO ][cluster.metadata         ] [Neophyte] [topbeat-2016.04.17] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings [process]
+[2016-04-17 17:47:07,590][INFO ][cluster.metadata         ] [Neophyte] [topbeat-2016.04.17] update_mapping [process]
+[2016-04-17 17:47:08,790][INFO ][cluster.metadata         ] [Neophyte] [topbeat-2016.04.17] create_mapping [system]
+[2016-04-17 17:47:09,429][INFO ][cluster.metadata         ] [Neophyte] [topbeat-2016.04.17] create_mapping [filesystem]
+[2016-04-17 17:47:09,437][DEBUG][action.admin.indices.mapping.put] [Neophyte] failed to put mappings on indices [[topbeat-2016.04.17]], type [filesystem]
+java.lang.IllegalArgumentException: mapper [fs.used_p] of different type, current_type [long], merged_type [double]
+	at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:378)
+	at org.elasticsearch.index.mapper.core.NumberFieldMapper.doMerge(NumberFieldMapper.java:301)
+	at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:364)
+	at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:53)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.doMerge(ObjectMapper.java:518)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.merge(ObjectMapper.java:491)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.merge(ObjectMapper.java:59)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.doMerge(ObjectMapper.java:518)
+	at org.elasticsearch.index.mapper.object.RootObjectMapper.doMerge(RootObjectMapper.java:277)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.merge(ObjectMapper.java:491)
+	at org.elasticsearch.index.mapper.object.RootObjectMapper.merge(RootObjectMapper.java:272)
+	at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:112)
+	at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:376)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:260)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-17 17:47:09,475][DEBUG][action.bulk              ] [Neophyte] [topbeat-2016.04.17][4] failed to execute bulk item (index) index {[topbeat-2016.04.17][filesystem][AVQkJzMrxU1XwcTYxKim], source[{"@timestamp":"2016-04-17T12:17:08.866Z","beat":{"hostname":"DESKTOP-4E45CI8","name":"DESKTOP-4E45CI8"},"count":1,"fs":{"device_name":"C:\\","total":160817999872,"used":45548380160,"used_p":0.28,"free":115269619712,"avail":115269619712,"files":0,"free_files":0,"mount_point":"C:\\"},"type":"filesystem"}]}
+java.lang.IllegalArgumentException: mapper [fs.used_p] of different type, current_type [long], merged_type [double]
+	at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:378)
+	at org.elasticsearch.index.mapper.core.NumberFieldMapper.doMerge(NumberFieldMapper.java:301)
+	at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:364)
+	at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:53)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.doMerge(ObjectMapper.java:518)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.merge(ObjectMapper.java:491)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.merge(ObjectMapper.java:59)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.doMerge(ObjectMapper.java:518)
+	at org.elasticsearch.index.mapper.object.RootObjectMapper.doMerge(RootObjectMapper.java:277)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.merge(ObjectMapper.java:491)
+	at org.elasticsearch.index.mapper.object.RootObjectMapper.merge(RootObjectMapper.java:272)
+	at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:112)
+	at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:376)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:260)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-17 17:47:11,476][INFO ][cluster.routing.allocation] [Neophyte] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][4]] ...]).
+[2016-04-17 18:13:47,252][INFO ][node                     ] [Neophyte] stopping ...
+[2016-04-17 18:13:49,459][INFO ][node                     ] [Neophyte] stopped
+[2016-04-17 18:13:49,461][INFO ][node                     ] [Neophyte] closing ...
+[2016-04-17 18:13:49,493][INFO ][node                     ] [Neophyte] closed
+[2016-04-17 19:09:20,688][INFO ][node                     ] [Colonel America] version[2.3.1], pid[6952], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 19:09:20,689][INFO ][node                     ] [Colonel America] initializing ...
+[2016-04-17 19:09:21,169][INFO ][plugins                  ] [Colonel America] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 19:09:21,189][INFO ][env                      ] [Colonel America] using [1] data paths, mounts [[(C:)]], net usable_space [107.3gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 19:09:21,189][INFO ][env                      ] [Colonel America] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 19:09:23,064][INFO ][node                     ] [Colonel America] initialized
+[2016-04-17 19:09:23,064][INFO ][node                     ] [Colonel America] starting ...
+[2016-04-17 19:09:23,275][INFO ][transport                ] [Colonel America] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 19:09:23,279][INFO ][discovery                ] [Colonel America] elasticsearch/DXWgbqFzRyiCFwBXm2t9YQ
+[2016-04-17 19:09:27,346][INFO ][cluster.service          ] [Colonel America] new_master {Colonel America}{DXWgbqFzRyiCFwBXm2t9YQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 19:09:27,579][INFO ][http                     ] [Colonel America] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 19:09:27,580][INFO ][node                     ] [Colonel America] started
+[2016-04-17 19:09:27,651][INFO ][gateway                  ] [Colonel America] recovered [3] indices into cluster_state
+[2016-04-17 19:09:29,517][INFO ][cluster.routing.allocation] [Colonel America] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][2]] ...]).
+[2016-04-17 19:27:25,529][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-17 19:27:25,529][INFO ][node                     ] [Colonel America] stopping ...
+[2016-04-17 19:27:25,587][INFO ][node                     ] [Colonel America] stopped
+[2016-04-17 19:27:25,588][INFO ][node                     ] [Colonel America] closing ...
+[2016-04-17 19:27:25,592][INFO ][node                     ] [Colonel America] closed
+[2016-04-17 19:27:48,289][INFO ][node                     ] [William Baker] version[2.3.1], pid[2576], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 19:27:48,290][INFO ][node                     ] [William Baker] initializing ...
+[2016-04-17 19:27:48,754][INFO ][plugins                  ] [William Baker] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 19:27:48,772][INFO ][env                      ] [William Baker] using [1] data paths, mounts [[(C:)]], net usable_space [107.3gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 19:27:48,773][INFO ][env                      ] [William Baker] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 19:27:50,656][INFO ][node                     ] [William Baker] initialized
+[2016-04-17 19:27:50,656][INFO ][node                     ] [William Baker] starting ...
+[2016-04-17 19:27:50,865][INFO ][transport                ] [William Baker] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 19:27:50,869][INFO ][discovery                ] [William Baker] elasticsearch/kPAdkVN5SXeCrRIRsXxjcA
+[2016-04-17 19:27:54,938][INFO ][cluster.service          ] [William Baker] new_master {William Baker}{kPAdkVN5SXeCrRIRsXxjcA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 19:27:55,154][INFO ][http                     ] [William Baker] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 19:27:55,154][INFO ][node                     ] [William Baker] started
+[2016-04-17 19:27:55,179][INFO ][gateway                  ] [William Baker] recovered [3] indices into cluster_state
+[2016-04-17 19:27:56,989][INFO ][cluster.routing.allocation] [William Baker] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][1], [topbeat-2016.04.16][1]] ...]).
+[2016-04-17 19:51:13,571][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-17 19:51:13,571][INFO ][node                     ] [William Baker] stopping ...
+[2016-04-17 19:51:13,633][INFO ][node                     ] [William Baker] stopped
+[2016-04-17 19:51:13,634][INFO ][node                     ] [William Baker] closing ...
+[2016-04-17 19:51:13,640][INFO ][node                     ] [William Baker] closed
+[2016-04-17 19:51:22,242][INFO ][node                     ] [Doctor Leery] version[2.3.1], pid[224], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 19:51:22,243][INFO ][node                     ] [Doctor Leery] initializing ...
+[2016-04-17 19:51:22,766][INFO ][plugins                  ] [Doctor Leery] modules [reindex, lang-expression, lang-groovy], plugins [elasticsearch-inquisitor], sites [elasticsearch-inquisitor]
+[2016-04-17 19:51:22,789][INFO ][env                      ] [Doctor Leery] using [1] data paths, mounts [[(C:)]], net usable_space [107.3gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 19:51:22,789][INFO ][env                      ] [Doctor Leery] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 19:51:24,846][INFO ][node                     ] [Doctor Leery] initialized
+[2016-04-17 19:51:24,846][INFO ][node                     ] [Doctor Leery] starting ...
+[2016-04-17 19:51:25,091][INFO ][transport                ] [Doctor Leery] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 19:51:25,095][INFO ][discovery                ] [Doctor Leery] elasticsearch/XkDIpu5KRceRZhaZHCiogg
+[2016-04-17 19:51:29,160][INFO ][cluster.service          ] [Doctor Leery] new_master {Doctor Leery}{XkDIpu5KRceRZhaZHCiogg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 19:51:29,420][INFO ][http                     ] [Doctor Leery] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 19:51:29,421][INFO ][node                     ] [Doctor Leery] started
+[2016-04-17 19:51:29,476][INFO ][gateway                  ] [Doctor Leery] recovered [3] indices into cluster_state
+[2016-04-17 19:51:31,317][INFO ][cluster.routing.allocation] [Doctor Leery] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][0], [topbeat-2016.04.16][0]] ...]).
+[2016-04-17 20:54:35,147][INFO ][node                     ] [Doctor Leery] stopping ...
+[2016-04-17 20:54:35,297][INFO ][node                     ] [Doctor Leery] stopped
+[2016-04-17 20:54:35,298][INFO ][node                     ] [Doctor Leery] closing ...
+[2016-04-17 20:54:35,304][INFO ][node                     ] [Doctor Leery] closed
+[2016-04-17 20:57:19,530][INFO ][node                     ] [Rawhide Kid] version[2.3.1], pid[9988], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:57:19,531][INFO ][node                     ] [Rawhide Kid] initializing ...
+[2016-04-17 20:57:19,969][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:57:29,083][INFO ][node                     ] [Skywalker] version[2.3.1], pid[5980], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:57:29,084][INFO ][node                     ] [Skywalker] initializing ...
+[2016-04-17 20:57:29,525][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:57:35,640][INFO ][node                     ] [Lucifer] version[2.3.1], pid[5704], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:57:35,641][INFO ][node                     ] [Lucifer] initializing ...
+[2016-04-17 20:57:36,080][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:57:49,478][INFO ][node                     ] [Melissa Gold] version[2.3.1], pid[9380], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:57:49,478][INFO ][node                     ] [Melissa Gold] initializing ...
+[2016-04-17 20:57:49,900][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:58:21,732][INFO ][node                     ] [Surtur] version[2.3.1], pid[6964], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:58:21,734][INFO ][node                     ] [Surtur] initializing ...
+[2016-04-17 20:58:22,167][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:58:26,092][INFO ][node                     ] [Alaris] version[2.3.1], pid[9864], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:58:26,093][INFO ][node                     ] [Alaris] initializing ...
+[2016-04-17 20:58:26,522][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:59:06,130][INFO ][node                     ] [Morph] version[2.3.1], pid[10280], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:59:06,130][INFO ][node                     ] [Morph] initializing ...
+[2016-04-17 20:59:06,557][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:59:19,893][INFO ][node                     ] [Cody Mushumanski Gun Man] version[2.3.1], pid[4168], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:59:19,894][INFO ][node                     ] [Cody Mushumanski Gun Man] initializing ...
+[2016-04-17 20:59:20,358][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [inquisitor]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\inquisitor\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 20:59:38,168][INFO ][node                     ] [Chaka] version[2.3.1], pid[10152], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 20:59:38,169][INFO ][node                     ] [Chaka] initializing ...
+[2016-04-17 20:59:38,641][INFO ][plugins                  ] [Chaka] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 20:59:38,659][INFO ][env                      ] [Chaka] using [1] data paths, mounts [[(C:)]], net usable_space [107.4gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 20:59:38,659][INFO ][env                      ] [Chaka] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 20:59:40,488][INFO ][node                     ] [Chaka] initialized
+[2016-04-17 20:59:40,489][INFO ][node                     ] [Chaka] starting ...
+[2016-04-17 20:59:40,694][INFO ][transport                ] [Chaka] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 20:59:40,698][INFO ][discovery                ] [Chaka] elasticsearch/kRP7_kKaTEmZjjr-FDMzHg
+[2016-04-17 20:59:44,771][INFO ][cluster.service          ] [Chaka] new_master {Chaka}{kRP7_kKaTEmZjjr-FDMzHg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 20:59:44,995][INFO ][http                     ] [Chaka] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 20:59:44,995][INFO ][node                     ] [Chaka] started
+[2016-04-17 20:59:45,025][INFO ][gateway                  ] [Chaka] recovered [3] indices into cluster_state
+[2016-04-17 20:59:47,037][INFO ][cluster.routing.allocation] [Chaka] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][1]] ...]).
+[2016-04-17 21:08:33,156][INFO ][node                     ] [Protector] version[2.3.1], pid[9932], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 21:08:33,156][INFO ][node                     ] [Protector] initializing ...
+[2016-04-17 21:08:33,677][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [elasticsearch-mapper-attachments-2.0.0.RC1]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: C:\Downloads\elasticsearch-2.3.1\plugins\elasticsearch-mapper-attachments-2.0.0.RC1\plugin-descriptor.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2016-04-17 21:23:35,219][INFO ][cluster.metadata         ] [Chaka] [.kibana] update_mapping [config]
+[2016-04-17 21:40:39,610][INFO ][node                     ] [Thog] version[2.3.1], pid[5184], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 21:40:39,611][INFO ][node                     ] [Thog] initializing ...
+[2016-04-17 21:40:40,158][INFO ][plugins                  ] [Thog] modules [reindex, lang-expression, lang-groovy], plugins [head], sites [head]
+[2016-04-17 21:40:40,183][INFO ][env                      ] [Thog] using [1] data paths, mounts [[(C:)]], net usable_space [107.3gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 21:40:40,184][INFO ][env                      ] [Thog] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 21:40:41,984][INFO ][node                     ] [Thog] initialized
+[2016-04-17 21:40:41,985][INFO ][node                     ] [Thog] starting ...
+[2016-04-17 21:40:42,293][INFO ][transport                ] [Thog] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-04-17 21:40:42,297][INFO ][discovery                ] [Thog] elasticsearch/6b6idTbWQoumPKfOSjIYdA
+[2016-04-17 21:40:46,474][INFO ][cluster.service          ] [Chaka] added {{Thog}{6b6idTbWQoumPKfOSjIYdA}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Thog}{6b6idTbWQoumPKfOSjIYdA}{127.0.0.1}{127.0.0.1:9301}])
+[2016-04-17 21:40:46,483][INFO ][cluster.service          ] [Thog] detected_master {Chaka}{kRP7_kKaTEmZjjr-FDMzHg}{127.0.0.1}{127.0.0.1:9300}, added {{Chaka}{kRP7_kKaTEmZjjr-FDMzHg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [{Chaka}{kRP7_kKaTEmZjjr-FDMzHg}{127.0.0.1}{127.0.0.1:9300}])
+[2016-04-17 21:40:47,025][INFO ][http                     ] [Thog] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-04-17 21:40:47,027][INFO ][node                     ] [Thog] started
+[2016-04-17 21:41:11,515][INFO ][cluster.routing.allocation] [Chaka] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[topbeat-2016.04.16][4]] ...]).
+[2016-04-17 21:43:08,511][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-17 21:43:08,512][INFO ][node                     ] [Chaka] stopping ...
+[2016-04-17 21:43:08,518][INFO ][discovery.zen            ] [Thog] master_left [{Chaka}{kRP7_kKaTEmZjjr-FDMzHg}{127.0.0.1}{127.0.0.1:9300}], reason [shut_down]
+[2016-04-17 21:43:08,519][WARN ][discovery.zen            ] [Thog] master left (reason = shut_down), current nodes: {{Thog}{6b6idTbWQoumPKfOSjIYdA}{127.0.0.1}{127.0.0.1:9301},}
+[2016-04-17 21:43:08,529][INFO ][cluster.service          ] [Thog] removed {{Chaka}{kRP7_kKaTEmZjjr-FDMzHg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-master_failed ({Chaka}{kRP7_kKaTEmZjjr-FDMzHg}{127.0.0.1}{127.0.0.1:9300})
+[2016-04-17 21:43:08,599][INFO ][node                     ] [Chaka] stopped
+[2016-04-17 21:43:08,600][INFO ][node                     ] [Chaka] closing ...
+[2016-04-17 21:43:08,607][INFO ][node                     ] [Chaka] closed
+[2016-04-17 21:43:12,619][INFO ][cluster.routing.allocation] [Thog] Cluster health status changed from [GREEN] to [YELLOW] (reason: [nodes joined]).
+[2016-04-17 21:43:12,621][INFO ][cluster.service          ] [Thog] new_master {Thog}{6b6idTbWQoumPKfOSjIYdA}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 21:43:12,624][INFO ][cluster.routing          ] [Thog] delaying allocation for [11] unassigned shards, next check in [1m]
+[2016-04-17 21:43:26,516][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-17 21:43:26,516][INFO ][node                     ] [Thog] stopping ...
+[2016-04-17 21:43:26,594][INFO ][node                     ] [Thog] stopped
+[2016-04-17 21:43:26,595][INFO ][node                     ] [Thog] closing ...
+[2016-04-17 21:43:26,601][INFO ][node                     ] [Thog] closed
+[2016-04-17 21:57:28,276][INFO ][node                     ] [Thinker] version[2.3.1], pid[5800], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 21:57:28,277][INFO ][node                     ] [Thinker] initializing ...
+[2016-04-17 21:57:28,877][INFO ][plugins                  ] [Thinker] modules [reindex, lang-expression, lang-groovy], plugins [head], sites [head]
+[2016-04-17 21:57:28,899][INFO ][env                      ] [Thinker] using [1] data paths, mounts [[(C:)]], net usable_space [107.3gb], net total_space [149.7gb], spins? [unknown], types [NTFS]
+[2016-04-17 21:57:28,899][INFO ][env                      ] [Thinker] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 21:57:30,852][INFO ][node                     ] [Thinker] initialized
+[2016-04-17 21:57:30,852][INFO ][node                     ] [Thinker] starting ...
+[2016-04-17 21:57:31,113][INFO ][transport                ] [Thinker] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 21:57:31,117][INFO ][discovery                ] [Thinker] elasticsearch/KdMWux_3Riym1SIK0MuEEg
+[2016-04-17 21:57:35,188][INFO ][cluster.service          ] [Thinker] new_master {Thinker}{KdMWux_3Riym1SIK0MuEEg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 21:57:35,433][INFO ][http                     ] [Thinker] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 21:57:35,434][INFO ][node                     ] [Thinker] started
+[2016-04-17 21:57:35,492][INFO ][gateway                  ] [Thinker] recovered [3] indices into cluster_state
+[2016-04-17 21:57:37,282][INFO ][cluster.routing.allocation] [Thinker] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.16][0], [topbeat-2016.04.16][0]] ...]).
+[2016-04-17 22:21:12,307][DEBUG][action.search            ] [Thinker] [topbeat-2016.04.17][3], node[KdMWux_3Riym1SIK0MuEEg], [P], v[14], s[STARTED], a[id=dZJTwGZtT2COiLaZsRo1SA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5395e7e5]
+RemoteTransportException[[Thinker][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+Caused by: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid format: ""
+	at org.joda.time.format.DateTimeParserBucket.doParseMillis(DateTimeParserBucket.java:187)
+	at org.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:780)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.parseValue(DateFieldMapper.java:356)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.indexedValueForSearch(DateFieldMapper.java:382)
+	at org.elasticsearch.index.mapper.MappedFieldType.createTerm(MappedFieldType.java:457)
+	at org.elasticsearch.index.mapper.MappedFieldType.termQuery(MappedFieldType.java:461)
+	at org.elasticsearch.index.query.TermQueryParser.parse(TermQueryParser.java:114)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:110)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:838)
+	... 12 more
+[2016-04-17 22:21:12,307][DEBUG][action.search            ] [Thinker] [topbeat-2016.04.17][0], node[KdMWux_3Riym1SIK0MuEEg], [P], v[14], s[STARTED], a[id=LLIkAlNMSHiIW8XgCr1W-g]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5395e7e5] lastShard [true]
+RemoteTransportException[[Thinker][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+Caused by: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid format: ""
+	at org.joda.time.format.DateTimeParserBucket.doParseMillis(DateTimeParserBucket.java:187)
+	at org.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:780)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.parseValue(DateFieldMapper.java:356)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.indexedValueForSearch(DateFieldMapper.java:382)
+	at org.elasticsearch.index.mapper.MappedFieldType.createTerm(MappedFieldType.java:457)
+	at org.elasticsearch.index.mapper.MappedFieldType.termQuery(MappedFieldType.java:461)
+	at org.elasticsearch.index.query.TermQueryParser.parse(TermQueryParser.java:114)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:110)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:838)
+	... 12 more
+[2016-04-17 22:21:12,307][DEBUG][action.search            ] [Thinker] [topbeat-2016.04.17][1], node[KdMWux_3Riym1SIK0MuEEg], [P], v[14], s[STARTED], a[id=Ho_aLJl4SGaxWKNkg3uDWA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5395e7e5] lastShard [true]
+RemoteTransportException[[Thinker][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+Caused by: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid format: ""
+	at org.joda.time.format.DateTimeParserBucket.doParseMillis(DateTimeParserBucket.java:187)
+	at org.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:780)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.parseValue(DateFieldMapper.java:356)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.indexedValueForSearch(DateFieldMapper.java:382)
+	at org.elasticsearch.index.mapper.MappedFieldType.createTerm(MappedFieldType.java:457)
+	at org.elasticsearch.index.mapper.MappedFieldType.termQuery(MappedFieldType.java:461)
+	at org.elasticsearch.index.query.TermQueryParser.parse(TermQueryParser.java:114)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:110)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:838)
+	... 12 more
+[2016-04-17 22:21:12,307][DEBUG][action.search            ] [Thinker] [topbeat-2016.04.17][4], node[KdMWux_3Riym1SIK0MuEEg], [P], v[14], s[STARTED], a[id=qua-SHr6T9uR0xyK-6yRyQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5395e7e5] lastShard [true]
+RemoteTransportException[[Thinker][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+Caused by: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid format: ""
+	at org.joda.time.format.DateTimeParserBucket.doParseMillis(DateTimeParserBucket.java:187)
+	at org.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:780)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.parseValue(DateFieldMapper.java:356)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.indexedValueForSearch(DateFieldMapper.java:382)
+	at org.elasticsearch.index.mapper.MappedFieldType.createTerm(MappedFieldType.java:457)
+	at org.elasticsearch.index.mapper.MappedFieldType.termQuery(MappedFieldType.java:461)
+	at org.elasticsearch.index.query.TermQueryParser.parse(TermQueryParser.java:114)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:110)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:838)
+	... 12 more
+[2016-04-17 22:21:12,307][DEBUG][action.search            ] [Thinker] [topbeat-2016.04.17][2], node[KdMWux_3Riym1SIK0MuEEg], [P], v[14], s[STARTED], a[id=vSsJLNZcReGJXpoPXUkjRQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5395e7e5] lastShard [true]
+RemoteTransportException[[Thinker][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+Caused by: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid format: ""
+	at org.joda.time.format.DateTimeParserBucket.doParseMillis(DateTimeParserBucket.java:187)
+	at org.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:780)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.parseValue(DateFieldMapper.java:356)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.indexedValueForSearch(DateFieldMapper.java:382)
+	at org.elasticsearch.index.mapper.MappedFieldType.createTerm(MappedFieldType.java:457)
+	at org.elasticsearch.index.mapper.MappedFieldType.termQuery(MappedFieldType.java:461)
+	at org.elasticsearch.index.query.TermQueryParser.parse(TermQueryParser.java:114)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:110)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:838)
+	... 12 more
+[2016-04-17 22:21:12,311][DEBUG][action.search            ] [Thinker] All shards failed for phase: [query]
+RemoteTransportException[[Thinker][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+Caused by: SearchParseException[failed to parse search source [{"query":{"bool":{"must":[{"term":{"@timestamp":""}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}]]; nested: IllegalArgumentException[Invalid format: ""];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:855)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:654)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:620)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:371)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid format: ""
+	at org.joda.time.format.DateTimeParserBucket.doParseMillis(DateTimeParserBucket.java:187)
+	at org.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:780)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.parseValue(DateFieldMapper.java:356)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper$DateFieldType.indexedValueForSearch(DateFieldMapper.java:382)
+	at org.elasticsearch.index.mapper.MappedFieldType.createTerm(MappedFieldType.java:457)
+	at org.elasticsearch.index.mapper.MappedFieldType.termQuery(MappedFieldType.java:461)
+	at org.elasticsearch.index.query.TermQueryParser.parse(TermQueryParser.java:114)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:110)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:838)
+	... 12 more
